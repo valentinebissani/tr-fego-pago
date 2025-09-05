@@ -1,0 +1,97 @@
+body{
+   background-color: #f8f9fa; 
+
+}
+.header-card{
+  background: linear-gradient(to bottom, #db71d2, #bb208c); 
+    height: 25vh;
+    color: white;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+}
+
+
+
+.text-center.my-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Semi-negrito */
+}
+.card{
+    background-color: rgb(245, 179, 235);
+    color: white;
+     transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+ }
+
+
+.col-12 {
+    padding: 30px; 
+}
+img{
+    width: 10vh;
+    height: 50 vh;
+}
+footer{
+
+    background: linear-gradient(to bottom, #db71d2, #bb208c); 
+    height: 200px;
+    margin-top: 3%;
+    border-radius: 15px;
+    margin-left: 3%;
+    margin-right: 3% ;
+    color: white;
+    
+}
+.cabeçalho{
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: pink;
+    color: white;
+}
+.cor{
+    background: linear-gradient(to bottom, #db71d2, #bb208c); 
+}
+#questionario{
+    width: 80vh;
+    height: 20vh;
+}
+#estrelas{
+    width: 39vh;
+    height: 20vh;
+    margin-top: 10vh;
+
+}
+#texto{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(223, 56, 167);
+    color: white;
+    border-radius: 20px;
+    margin-top: 3%;
+    
+}
+
+
+.claro{
+  background-color: white;
+  color: rgb(37, 36, 36);
+}
+
+.escuro{
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+#bt1{
+      margin-top: 2vh;
+}
+h1{
+    margin-top: 2vh;
+}

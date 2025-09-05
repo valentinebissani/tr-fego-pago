@@ -1,0 +1,40 @@
+.header-card{
+    background: linear-gradient(to bottom, #db71d2, #bb208c); 
+    height: 28vh;
+    color: white;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+}
+footer{
+    background: linear-gradient(to bottom, #db71d2, #bb208c); 
+    height: 22vh;
+    color: white;
+}
+h5{
+    margin-bottom: 3vh;
+}
+img{
+    margin-bottom: 4vh;
+}
+.cor{
+    background-color: white;
+}
+.cabeçalho{
+    color: white;
+    text-align: center;
+}
+#bt1{
+    margin-left: 85%;
+}
+#bt2{
+    margin-top: 2vh;
+}
+.claro{
+  background-color: white;
+  color: rgb(37, 36, 36);
+}
+
+.escuro{
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
