@@ -12,7 +12,6 @@ function selectRating(rating) {
             document.getElementById('texto').innerHTML = "Avaliação: " + "★".repeat(rating) + "☆".repeat(5-rating);
         }
         
-        
         function submitFeedback() {
             const feedbackText = document.getElementById('feedbackText').value;
             document.getElementById('texto').innerHTML = "Muito obrigado pelo seu feedback! Iremos usar seus comentários para melhorar nossos serviços. 😊";
@@ -100,3 +99,4 @@ function modoEscuro(){
 
 
 }
+
