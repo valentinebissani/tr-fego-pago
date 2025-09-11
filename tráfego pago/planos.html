@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MetaReach</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="planos.css">
-    <script src="java.js"></script>
-</head>
+    <link rel="stylesheet" href="trafegopago.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <script src="trafegopago.js"></script>
 
+
+</head>
 <body id="alterar">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-   
- <div class="container">
-
+    
+<div class="container">
     <div class="header-card">
      <div class="cabeçalho">
             <h1>MetaReach</h1>
            <button class="btn" onclick="modoEscuro()" id="bt1">Modo Escuro</button>
            </div>
         </div>
-
     <div class="container">
         <h1 class="text-center my-4">Planos Disponíveis</h1>
         <div class="row">
@@ -33,7 +33,6 @@
               segmentação básica e relatórios mensais para acompanhar seus primeiros resultados.<br>
           </p>
             <h1 class="text-center my-4">  R$149,90</h1>
-            
 </div>
 </div>
 </div>
@@ -47,7 +46,6 @@
               investimento
             </p>
             <h1 class="text-center my-4">R$399,90</h1>
-           
 </div>
 </div>
 </div>
@@ -57,11 +55,9 @@
             <div class="card-body">
             <h5 class="card-title">Plano Premium</h5>
             <p class="card-text">A escolha certa para quem busca dominar o mercado. Contém estratégias completas, campanhas em larga escala, s
-              uporte exclusivo, remarketing avançado e relatórios semanais com acompanhamento personalizado.<br>
-              
+              Suporte exclusivo, remarketing avançado e relatórios semanais com acompanhamento personalizado.<br>
             </p>
             <h1 class="text-center my-4"> R$889,90</h1>
-           
 </div>
 </div>
 </div>
@@ -70,32 +66,44 @@
 </div>
 <br>
 
- <h1 class="text-center my-4">Nos avalie</h1>
- <center>
-<div class="container">
- <div class="card" id="questionario">
- <h3 class="text-center my-4">Você gostou dos dos nossos serviços? </h3>
- <div class="d-grid gap-2">
-  <button  class="btn cor" type="button" onclick="sim()">Sim</button> 
-  <button  class="btn cor" type="button" onclick="nao()">Não</button>
-</div>
-<p id="texto"></p>
- </div>
- </div>
- </center>
 
- <center>
- <img src="cinco-estrelas-png-5.png" class="card-img-top" alt=".." id="estrelas">
+        <h1 class="text-center my-4">Nos avalie</h1>
+        
+        <center>
+            <div class="card" id="questionario">
+                <h3 class="text-center my-4">Como foi sua experiência com nossos serviços?</h3>
+                
+                <div class="rating-options">
+                    <div class="rating-btn cor" onclick="selectRating(1)">😞</div>
+                    <div class="rating-btn cor" onclick="selectRating(2)">😐</div>
+                    <div class="rating-btn cor" onclick="selectRating(3)">😊</div>
+                    <div class="rating-btn cor" onclick="selectRating(4)">😄</div>
+                    <div class="rating-btn cor" onclick="selectRating(5)">🤩</div>
+                </div>
+                
+                <div id="feedback" class="feedback">
+                    <p class="text-center">Obrigado pelo feedback! Conte-nos mais sobre sua experiência:</p>
+                    <textarea class="form-control" id="feedbackText" rows="3" placeholder="O que podemos melhorar?"></textarea>
+                    <div class="d-grid gap-2 mt-3">
+                        <button class="btn cor" type="button" onclick="submitFeedback()">Enviar Comentários</button>
+                    </div>
+                </div>
+                
+                <p id="texto"></p>
+            </div>
+        </center>
 
-</center>
-</div>
-<footer>
-<p class="text-center">© 2025 - MetaReach</p>
-     <p class="text-center">Versão 2.0</p>
-     <p class="text-center">Criadores: Vitor Hart e Valentine Bissani</p>
-     <p class="text-center">Contato: metareach@gmail.com</p>
-</footer>
-
+        <center>
+            <img src="cinco-estrelas-png-5.png" class="card-img-top" alt="Avaliação" id="estrelas">
+        </center>
+    </div>
+    
+    <footer>
+        <p class="text-center">© 2025 - MetaReach</p>
+        <p class="text-center">Versão 2.0</p>
+        <p class="text-center">Criadores: Vitor Hart e Valentine Bissani</p>
+        <p class="text-center">Contato: metareach@gmail.com</p>
+    </footer>
 
 </body>
 </html>
